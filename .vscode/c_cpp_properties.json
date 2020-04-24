@@ -3,9 +3,12 @@
         {
             "name": "Win32",
             "includePath": [
+                "C:\\Users\\Adam\\Documents\\Arduino\\libraries\\ESPAsyncTCP\\src",
                 "C:\\Users\\Adam\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\**",
                 "C:\\Users\\Adam\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.4\\**",
-                "C:\\Users\\Adam\\Documents\\Arduino\\libraries\\**"
+                "C:\\Users\\Adam\\Documents\\Arduino\\libraries\\**",
+                "C:\\\\Users\\\\Adam\\\\AppData\\\\Local\\\\Arduino15\\\\packages\\\\esp8266\\\\tools\\\\**",
+                "C:\\\\Users\\\\Adam\\\\AppData\\\\Local\\\\Arduino15\\\\packages\\\\esp8266\\\\hardware\\\\esp8266\\\\2.6.3\\\\**"
             ],
             "forcedInclude": [],
             "intelliSenseMode": "msvc-x64"
