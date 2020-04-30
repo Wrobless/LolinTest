@@ -130,6 +130,7 @@ String processor(const String &var)
 void setup()
 {
     pinMode(LED_BUILTIN, OUTPUT);
+    pinMode(4, OUTPUT);
     Serial.begin(115200);
     dht.begin();
     WiFi.begin(ssid, password);
@@ -157,8 +158,10 @@ void setup()
 void loop()
 {
     digitalWrite(LED_BUILTIN, LOW);
+    digitalWrite(4, HIGH);
     delay(500);
     digitalWrite(LED_BUILTIN, HIGH);
+    digitalWrite(4, LOW);
     String temperature = readTemperature();
     String humidity = readHumidity();
     delay(interval);
